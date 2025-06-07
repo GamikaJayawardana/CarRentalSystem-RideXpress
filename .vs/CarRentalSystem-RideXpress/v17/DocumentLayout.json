@@ -1,12 +1,119 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|d:\\(d) documents\\lessons\\year 03 sem 01\\becs 31242 - visual programming\\project\\carrentalsystem-ridexpress\\carrentalsystem-ridexpress\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|d:\\(d) documents\\lessons\\year 03 sem 01\\becs 31242 - visual programming\\project\\carrentalsystem-ridexpress\\carrentalsystem-ridexpress\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|d:\\(d) documents\\lessons\\year 03 sem 01\\becs 31242 - visual programming\\project\\carrentalsystem-ridexpress\\carrentalsystem-ridexpress\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|d:\\(d) documents\\lessons\\year 03 sem 01\\becs 31242 - visual programming\\project\\carrentalsystem-ridexpress\\carrentalsystem-ridexpress\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|d:\\(d) documents\\lessons\\year 03 sem 01\\becs 31242 - visual programming\\project\\carrentalsystem-ridexpress\\carrentalsystem-ridexpress\\registerform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\registerform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|d:\\(d) documents\\lessons\\year 03 sem 01\\becs 31242 - visual programming\\project\\carrentalsystem-ridexpress\\carrentalsystem-ridexpress\\loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\LoginForm.cs",
+              "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\LoginForm.cs",
+              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\LoginForm.cs",
+              "RelativeToolTip": "CarRentalSystem-RideXpress\\LoginForm.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAlwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:07:16.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\LoginForm.cs",
+              "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\LoginForm.cs",
+              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\LoginForm.cs [Design]",
+              "RelativeToolTip": "CarRentalSystem-RideXpress\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:06:59.436Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterForm.Designer.cs",
+              "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\RegisterForm.Designer.cs",
+              "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\RegisterForm.Designer.cs",
+              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\RegisterForm.Designer.cs",
+              "RelativeToolTip": "CarRentalSystem-RideXpress\\RegisterForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:04:50.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterForm.resx",
+              "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\RegisterForm.resx",
+              "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\RegisterForm.resx",
+              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\RegisterForm.resx",
+              "RelativeToolTip": "CarRentalSystem-RideXpress\\RegisterForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-07T17:04:50.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\LoginForm.Designer.cs",
+              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\LoginForm.Designer.cs",
+              "RelativeToolTip": "CarRentalSystem-RideXpress\\LoginForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:04:49.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginForm.resx",
+              "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\LoginForm.resx",
+              "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\LoginForm.resx",
+              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\LoginForm.resx",
+              "RelativeToolTip": "CarRentalSystem-RideXpress\\LoginForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-07T17:04:48.567Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -43,5 +43,10 @@ namespace CarRentalSystem_RideXpress
             rForm.Show();
             this.Hide();
         }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -68,7 +68,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.logo_white;
-            pictureBox1.Location = new Point(145, 127);
+            pictureBox1.Location = new Point(145, 61);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(293, 72);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -80,7 +80,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Poppins", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(144, 230);
+            label2.Location = new Point(144, 178);
             label2.Name = "label2";
             label2.Size = new Size(93, 26);
             label2.TabIndex = 2;
@@ -91,7 +91,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Poppins", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(144, 265);
+            label3.Location = new Point(144, 213);
             label3.Name = "label3";
             label3.Size = new Size(86, 26);
             label3.TabIndex = 3;
@@ -100,14 +100,14 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(243, 230);
+            textBox1.Location = new Point(243, 178);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(194, 23);
             textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(243, 268);
+            textBox2.Location = new Point(243, 216);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(194, 23);
             textBox2.TabIndex = 5;
@@ -118,7 +118,7 @@
             btnLogin.FlatStyle = FlatStyle.Popup;
             btnLogin.Font = new Font("Poppins SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnLogin.ForeColor = Color.White;
-            btnLogin.Location = new Point(145, 331);
+            btnLogin.Location = new Point(145, 273);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(293, 32);
             btnLogin.TabIndex = 6;
@@ -132,7 +132,7 @@
             btnSignUp.FlatStyle = FlatStyle.Popup;
             btnSignUp.Font = new Font("Poppins SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnSignUp.ForeColor = Color.White;
-            btnSignUp.Location = new Point(145, 407);
+            btnSignUp.Location = new Point(145, 355);
             btnSignUp.Name = "btnSignUp";
             btnSignUp.Size = new Size(293, 32);
             btnSignUp.TabIndex = 7;
@@ -143,11 +143,11 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Poppins", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Poppins SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(204, 378);
+            label4.Location = new Point(204, 326);
             label4.Name = "label4";
-            label4.Size = new Size(181, 26);
+            label4.Size = new Size(180, 26);
             label4.TabIndex = 8;
             label4.Text = "Create a New Account";
             // 
@@ -155,7 +155,7 @@
             // 
             checkBox1.AutoSize = true;
             checkBox1.ForeColor = Color.White;
-            checkBox1.Location = new Point(243, 297);
+            checkBox1.Location = new Point(243, 245);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(108, 19);
             checkBox1.TabIndex = 9;
@@ -165,20 +165,20 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Poppins SemiBold", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.ForeColor = Color.FromArgb(182, 24, 23);
-            label5.Location = new Point(188, 68);
+            label5.Font = new Font("Poppins SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.White;
+            label5.Location = new Point(205, 146);
             label5.Name = "label5";
-            label5.Size = new Size(206, 56);
-            label5.TabIndex = 10;
-            label5.Text = "USER LOGIN";
+            label5.Size = new Size(179, 26);
+            label5.TabIndex = 19;
+            label5.Text = "Login to Your Account";
             // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(5, 15, 60);
-            ClientSize = new Size(600, 500);
+            ClientSize = new Size(600, 468);
             Controls.Add(label5);
             Controls.Add(checkBox1);
             Controls.Add(label4);
@@ -194,6 +194,7 @@
             Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "LoginForm";
+            Load += LoginForm_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
