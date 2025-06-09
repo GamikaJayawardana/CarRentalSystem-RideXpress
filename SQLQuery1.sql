@@ -8,3 +8,5 @@
 )
 
 SELECT * FROM users
+
+drop table users

@@ -33,12 +33,12 @@
             pictureBox1 = new PictureBox();
             label2 = new Label();
             label3 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            login_username = new TextBox();
+            login_password = new TextBox();
             btnLogin = new Button();
             btnSignUp = new Button();
             label4 = new Label();
-            checkBox1 = new CheckBox();
+            login_showpass = new CheckBox();
             label5 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -98,19 +98,22 @@
             label3.Text = "Password";
             label3.Click += label3_Click;
             // 
-            // textBox1
+            // login_username
             // 
-            textBox1.Location = new Point(243, 178);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(194, 23);
-            textBox1.TabIndex = 4;
+            login_username.Font = new Font("Poppins", 9F);
+            login_username.Location = new Point(243, 175);
+            login_username.Name = "login_username";
+            login_username.Size = new Size(194, 25);
+            login_username.TabIndex = 4;
             // 
-            // textBox2
+            // login_password
             // 
-            textBox2.Location = new Point(243, 216);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(194, 23);
-            textBox2.TabIndex = 5;
+            login_password.Font = new Font("Poppins", 9F);
+            login_password.Location = new Point(243, 213);
+            login_password.Name = "login_password";
+            login_password.PasswordChar = '*';
+            login_password.Size = new Size(194, 25);
+            login_password.TabIndex = 5;
             // 
             // btnLogin
             // 
@@ -151,16 +154,17 @@
             label4.TabIndex = 8;
             label4.Text = "Create a New Account";
             // 
-            // checkBox1
+            // login_showpass
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.ForeColor = Color.White;
-            checkBox1.Location = new Point(243, 245);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(108, 19);
-            checkBox1.TabIndex = 9;
-            checkBox1.Text = "Show Password";
-            checkBox1.UseVisualStyleBackColor = true;
+            login_showpass.AutoSize = true;
+            login_showpass.ForeColor = Color.White;
+            login_showpass.Location = new Point(243, 245);
+            login_showpass.Name = "login_showpass";
+            login_showpass.Size = new Size(108, 19);
+            login_showpass.TabIndex = 9;
+            login_showpass.Text = "Show Password";
+            login_showpass.UseVisualStyleBackColor = true;
+            login_showpass.CheckedChanged += login_showpass_CheckedChanged;
             // 
             // label5
             // 
@@ -180,12 +184,12 @@
             BackColor = Color.FromArgb(5, 15, 60);
             ClientSize = new Size(600, 468);
             Controls.Add(label5);
-            Controls.Add(checkBox1);
+            Controls.Add(login_showpass);
             Controls.Add(label4);
             Controls.Add(btnSignUp);
             Controls.Add(btnLogin);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(login_password);
+            Controls.Add(login_username);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(pictureBox1);
@@ -209,12 +213,12 @@
         private PictureBox pictureBox1;
         private Label label2;
         private Label label3;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox login_username;
+        private TextBox login_password;
         private Button btnLogin;
         private Button btnSignUp;
         private Label label4;
-        private CheckBox checkBox1;
+        private CheckBox login_showpass;
         private Label label5;
     }
 }
