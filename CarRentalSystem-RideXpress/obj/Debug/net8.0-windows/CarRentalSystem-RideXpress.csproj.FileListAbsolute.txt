@@ -17,3 +17,12 @@ D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\
 D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\obj\Debug\net8.0-windows\ref\CarRentalSystem-RideXpress.dll
 D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\obj\Debug\net8.0-windows\CarRentalSystem_RideXpress.LoginForm.resources
 D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\obj\Debug\net8.0-windows\CarRentalSystem_RideXpress.RegisterForm.resources
+D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\obj\Debug\net8.0-windows\CarRentalSystem-RideXpress.csproj.AssemblyReference.cache
+D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\obj\Debug\net8.0-windows\CarRentalSystem-RideXpress.sourcelink.json
+D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\obj\Debug\net8.0-windows\CarRenta.425CECD0.Up2Date
