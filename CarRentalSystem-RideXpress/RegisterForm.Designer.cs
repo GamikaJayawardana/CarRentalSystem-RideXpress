@@ -30,7 +30,7 @@
         {
             panel1 = new Panel();
             label1 = new Label();
-            checkBox1 = new CheckBox();
+            register_showpass = new CheckBox();
             label4 = new Label();
             btnLoginR = new Button();
             btnSignUpR = new Button();
@@ -67,16 +67,17 @@
             label1.Text = "X";
             label1.Click += label1_Click;
             // 
-            // checkBox1
+            // register_showpass
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.ForeColor = Color.White;
-            checkBox1.Location = new Point(243, 284);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(108, 19);
-            checkBox1.TabIndex = 19;
-            checkBox1.Text = "Show Password";
-            checkBox1.UseVisualStyleBackColor = true;
+            register_showpass.AutoSize = true;
+            register_showpass.ForeColor = Color.White;
+            register_showpass.Location = new Point(243, 284);
+            register_showpass.Name = "register_showpass";
+            register_showpass.Size = new Size(108, 19);
+            register_showpass.TabIndex = 19;
+            register_showpass.Text = "Show Password";
+            register_showpass.UseVisualStyleBackColor = true;
+            register_showpass.CheckedChanged += register_showpass_CheckedChanged;
             // 
             // label4
             // 
@@ -115,6 +116,7 @@
             btnSignUpR.TabIndex = 16;
             btnSignUpR.Text = "Sign Up";
             btnSignUpR.UseVisualStyleBackColor = false;
+            btnSignUpR.Click += btnSignUpR_Click;
             // 
             // register_password
             // 
@@ -201,7 +203,7 @@
             Controls.Add(register_email);
             Controls.Add(label6);
             Controls.Add(panel1);
-            Controls.Add(checkBox1);
+            Controls.Add(register_showpass);
             Controls.Add(label4);
             Controls.Add(btnLoginR);
             Controls.Add(btnSignUpR);
@@ -225,7 +227,7 @@
 
         private Panel panel1;
         private Label label1;
-        private CheckBox checkBox1;
+        private CheckBox register_showpass;
         private Label label4;
         private Button btnLoginR;
         private Button btnSignUpR;
