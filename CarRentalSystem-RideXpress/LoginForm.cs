@@ -15,8 +15,8 @@ namespace CarRentalSystem_RideXpress
     public partial class LoginForm : Form
     {
 
-        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\gamik\OneDrive\Documents\RideXpress.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=false");
-
+        //SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\gamik\OneDrive\Documents\RideXpress.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=false");
+        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Nuwanshi Indeewari\OneDrive\Documents\RideXpress.mdf"";Integrated Security=True;Connect Timeout=30");
 
         public LoginForm()
         {
