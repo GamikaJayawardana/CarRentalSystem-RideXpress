@@ -120,16 +120,19 @@
             // 
             // register_password
             // 
+            register_password.Font = new Font("Poppins", 9F);
             register_password.Location = new Point(243, 255);
             register_password.Name = "register_password";
-            register_password.Size = new Size(194, 23);
+            register_password.PasswordChar = '*';
+            register_password.Size = new Size(194, 25);
             register_password.TabIndex = 15;
             // 
             // register_username
             // 
+            register_username.Font = new Font("Poppins", 9F);
             register_username.Location = new Point(243, 217);
             register_username.Name = "register_username";
-            register_username.Size = new Size(194, 23);
+            register_username.Size = new Size(194, 25);
             register_username.TabIndex = 14;
             // 
             // label3
@@ -166,9 +169,10 @@
             // 
             // register_email
             // 
+            register_email.Font = new Font("Poppins", 9F);
             register_email.Location = new Point(243, 177);
             register_email.Name = "register_email";
-            register_email.Size = new Size(194, 23);
+            register_email.Size = new Size(194, 25);
             register_email.TabIndex = 22;
             // 
             // label6

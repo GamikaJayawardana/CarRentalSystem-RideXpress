@@ -62,7 +62,9 @@ namespace CarRentalSystem_RideXpress
                             }
                             else
                             {
-                                String insertData = "INSERT INTO users (email, username, password) VALUES (@email, @username, @password)";
+                                DateTime day = DateTime.Today;
+
+                                String insertData = "INSERT INTO users (email, username, password, data_register) VALUES (@email, @username, @password, @date)";
 
 
                                 using (SqlCommand insertCMD = new SqlCommand (insertData, connect))
@@ -70,6 +72,7 @@ namespace CarRentalSystem_RideXpress
                                     insertCMD.Parameters.AddWithValue("@email",register_email.Text.Trim());
                                     insertCMD.Parameters.AddWithValue("@username", register_username.Text.Trim());
                                     insertCMD.Parameters.AddWithValue("@password", register_password.Text.Trim());
+                                    insertCMD.Parameters.AddWithValue("@date", day.ToString());
 
                                     insertCMD.ExecuteNonQuery();
 
