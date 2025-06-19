@@ -26,3 +26,8 @@ D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\
 D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\obj\Debug\net8.0-windows\CarRentalSystem-RideXpress.csproj.AssemblyReference.cache
 D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\obj\Debug\net8.0-windows\CarRentalSystem-RideXpress.sourcelink.json
 D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\obj\Debug\net8.0-windows\CarRenta.425CECD0.Up2Date
+D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\obj\Debug\net8.0-windows\CarRentalSystem_RideXpress.MainForm.resources
+D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\obj\Debug\net8.0-windows\CarRentalSystem_RideXpress.AddCars.resources
+D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\obj\Debug\net8.0-windows\CarRentalSystem_RideXpress.Dashboard.resources
+D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\obj\Debug\net8.0-windows\CarRentalSystem_RideXpress.IssueCar.resources
+D:\(D) Documents\Lessons\Year 03 Sem 01\BECS 31242 - Visual Programming\Project\CarRentalSystem-RideXpress\CarRentalSystem-RideXpress\obj\Debug\net8.0-windows\CarRentalSystem_RideXpress.ReturnCar.resources
