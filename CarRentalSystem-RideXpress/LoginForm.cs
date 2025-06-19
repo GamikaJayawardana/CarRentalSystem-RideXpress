@@ -61,9 +61,9 @@ namespace CarRentalSystem_RideXpress
                             {
                                 MessageBox.Show("Login Successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 // Redirect to the main application form or dashboard
-                                //MainForm mainForm = new MainForm();
-                                //mainForm.Show();
-                                //this.Hide();
+                                MainForm mainForm = new MainForm();
+                                mainForm.Show();
+                                this.Hide();
                             }
                             else
                             {
