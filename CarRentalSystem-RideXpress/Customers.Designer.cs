@@ -1,6 +1,6 @@
 ﻿namespace CarRentalSystem_RideXpress
 {
-    partial class IssueCar
+    partial class Customers
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,87 +28,63 @@
         /// </summary>
         private void InitializeComponent()
         {
+            dataGridView1 = new DataGridView();
             panel1 = new Panel();
-            dtReturnDate = new DateTimePicker();
-            dtRentalDate = new DateTimePicker();
-            cmbRegNo = new ComboBox();
-            cmbCustomerID = new ComboBox();
             btnClear = new Button();
-            txtRentalPrice = new TextBox();
+            txtAddress = new TextBox();
+            txtPhone = new TextBox();
+            txtEmail = new TextBox();
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
-            txtRentalID = new TextBox();
+            txtLastName = new TextBox();
+            txtFirstName = new TextBox();
+            txtCustomerId = new TextBox();
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
             btnDel = new Button();
             btnEdit = new Button();
             btnAdd = new Button();
-            dataGridRentedCars = new DataGridView();
-            dataGridAvailableCars = new DataGridView();
-            label7 = new Label();
             label8 = new Label();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridRentedCars).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridAvailableCars).BeginInit();
             SuspendLayout();
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(15, 45);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView1.Size = new Size(848, 303);
+            dataGridView1.TabIndex = 0;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // panel1
             // 
             panel1.BackColor = Color.White;
-            panel1.Controls.Add(dtReturnDate);
-            panel1.Controls.Add(dtRentalDate);
-            panel1.Controls.Add(cmbRegNo);
-            panel1.Controls.Add(cmbCustomerID);
             panel1.Controls.Add(btnClear);
-            panel1.Controls.Add(txtRentalPrice);
+            panel1.Controls.Add(txtAddress);
+            panel1.Controls.Add(txtPhone);
+            panel1.Controls.Add(txtEmail);
             panel1.Controls.Add(label4);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(label6);
-            panel1.Controls.Add(txtRentalID);
+            panel1.Controls.Add(txtLastName);
+            panel1.Controls.Add(txtFirstName);
+            panel1.Controls.Add(txtCustomerId);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(btnDel);
             panel1.Controls.Add(btnEdit);
             panel1.Controls.Add(btnAdd);
-            panel1.Location = new Point(16, 365);
+            panel1.Location = new Point(15, 365);
             panel1.Name = "panel1";
             panel1.Size = new Size(849, 195);
-            panel1.TabIndex = 5;
-            // 
-            // dtReturnDate
-            // 
-            dtReturnDate.Location = new Point(607, 59);
-            dtReturnDate.Name = "dtReturnDate";
-            dtReturnDate.Size = new Size(204, 23);
-            dtReturnDate.TabIndex = 26;
-            // 
-            // dtRentalDate
-            // 
-            dtRentalDate.Location = new Point(607, 21);
-            dtRentalDate.Name = "dtRentalDate";
-            dtRentalDate.Size = new Size(204, 23);
-            dtRentalDate.TabIndex = 25;
-            // 
-            // cmbRegNo
-            // 
-            cmbRegNo.BackColor = Color.FromArgb(224, 224, 224);
-            cmbRegNo.FormattingEnabled = true;
-            cmbRegNo.Location = new Point(175, 102);
-            cmbRegNo.Name = "cmbRegNo";
-            cmbRegNo.Size = new Size(204, 23);
-            cmbRegNo.TabIndex = 24;
-            // 
-            // cmbCustomerID
-            // 
-            cmbCustomerID.BackColor = Color.FromArgb(224, 224, 224);
-            cmbCustomerID.FormattingEnabled = true;
-            cmbCustomerID.Location = new Point(175, 64);
-            cmbCustomerID.Name = "cmbCustomerID";
-            cmbCustomerID.Size = new Size(204, 23);
-            cmbCustomerID.TabIndex = 23;
+            panel1.TabIndex = 1;
             // 
             // btnClear
             // 
@@ -125,14 +101,32 @@
             btnClear.UseVisualStyleBackColor = false;
             btnClear.Click += btnClear_Click;
             // 
-            // txtRentalPrice
+            // txtAddress
             // 
-            txtRentalPrice.BackColor = Color.FromArgb(224, 224, 224);
-            txtRentalPrice.BorderStyle = BorderStyle.FixedSingle;
-            txtRentalPrice.Location = new Point(607, 97);
-            txtRentalPrice.Name = "txtRentalPrice";
-            txtRentalPrice.Size = new Size(204, 23);
-            txtRentalPrice.TabIndex = 21;
+            txtAddress.BackColor = Color.FromArgb(224, 224, 224);
+            txtAddress.BorderStyle = BorderStyle.FixedSingle;
+            txtAddress.Location = new Point(607, 97);
+            txtAddress.Name = "txtAddress";
+            txtAddress.Size = new Size(204, 23);
+            txtAddress.TabIndex = 21;
+            // 
+            // txtPhone
+            // 
+            txtPhone.BackColor = Color.FromArgb(224, 224, 224);
+            txtPhone.BorderStyle = BorderStyle.FixedSingle;
+            txtPhone.Location = new Point(607, 59);
+            txtPhone.Name = "txtPhone";
+            txtPhone.Size = new Size(204, 23);
+            txtPhone.TabIndex = 20;
+            // 
+            // txtEmail
+            // 
+            txtEmail.BackColor = Color.FromArgb(224, 224, 224);
+            txtEmail.BorderStyle = BorderStyle.FixedSingle;
+            txtEmail.Location = new Point(607, 22);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(204, 23);
+            txtEmail.TabIndex = 19;
             // 
             // label4
             // 
@@ -140,9 +134,9 @@
             label4.Font = new Font("Poppins Medium", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.Location = new Point(467, 97);
             label4.Name = "label4";
-            label4.Size = new Size(113, 26);
+            label4.Size = new Size(80, 26);
             label4.TabIndex = 18;
-            label4.Text = "Rental Price";
+            label4.Text = "Address";
             // 
             // label5
             // 
@@ -150,9 +144,9 @@
             label5.Font = new Font("Poppins Medium", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.Location = new Point(467, 59);
             label5.Name = "label5";
-            label5.Size = new Size(113, 26);
+            label5.Size = new Size(93, 26);
             label5.TabIndex = 17;
-            label5.Text = "Return Date";
+            label5.Text = "Phone No";
             // 
             // label6
             // 
@@ -160,18 +154,36 @@
             label6.Font = new Font("Poppins Medium", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.Location = new Point(467, 22);
             label6.Name = "label6";
-            label6.Size = new Size(111, 26);
+            label6.Size = new Size(59, 26);
             label6.TabIndex = 16;
-            label6.Text = "Rental Date";
+            label6.Text = "Email";
             // 
-            // txtRentalID
+            // txtLastName
             // 
-            txtRentalID.BackColor = Color.FromArgb(224, 224, 224);
-            txtRentalID.BorderStyle = BorderStyle.FixedSingle;
-            txtRentalID.Location = new Point(175, 25);
-            txtRentalID.Name = "txtRentalID";
-            txtRentalID.Size = new Size(204, 23);
-            txtRentalID.TabIndex = 13;
+            txtLastName.BackColor = Color.FromArgb(224, 224, 224);
+            txtLastName.BorderStyle = BorderStyle.FixedSingle;
+            txtLastName.Location = new Point(175, 100);
+            txtLastName.Name = "txtLastName";
+            txtLastName.Size = new Size(204, 23);
+            txtLastName.TabIndex = 15;
+            // 
+            // txtFirstName
+            // 
+            txtFirstName.BackColor = Color.FromArgb(224, 224, 224);
+            txtFirstName.BorderStyle = BorderStyle.FixedSingle;
+            txtFirstName.Location = new Point(175, 62);
+            txtFirstName.Name = "txtFirstName";
+            txtFirstName.Size = new Size(204, 23);
+            txtFirstName.TabIndex = 14;
+            // 
+            // txtCustomerId
+            // 
+            txtCustomerId.BackColor = Color.FromArgb(224, 224, 224);
+            txtCustomerId.BorderStyle = BorderStyle.FixedSingle;
+            txtCustomerId.Location = new Point(175, 25);
+            txtCustomerId.Name = "txtCustomerId";
+            txtCustomerId.Size = new Size(204, 23);
+            txtCustomerId.TabIndex = 13;
             // 
             // label3
             // 
@@ -179,9 +191,9 @@
             label3.Font = new Font("Poppins Medium", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.Location = new Point(35, 100);
             label3.Name = "label3";
-            label3.Size = new Size(71, 26);
+            label3.Size = new Size(102, 26);
             label3.TabIndex = 12;
-            label3.Text = "Reg No";
+            label3.Text = "Last Name";
             // 
             // label2
             // 
@@ -189,9 +201,9 @@
             label2.Font = new Font("Poppins Medium", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(35, 62);
             label2.Name = "label2";
-            label2.Size = new Size(118, 26);
+            label2.Size = new Size(104, 26);
             label2.TabIndex = 11;
-            label2.Text = "Customer ID";
+            label2.Text = "First Name";
             // 
             // label1
             // 
@@ -199,9 +211,9 @@
             label1.Font = new Font("Poppins Medium", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(35, 25);
             label1.Name = "label1";
-            label1.Size = new Size(88, 26);
+            label1.Size = new Size(124, 26);
             label1.TabIndex = 10;
-            label1.Text = "Rental ID";
+            label1.Text = "Custermer ID";
             // 
             // btnDel
             // 
@@ -246,91 +258,53 @@
             btnAdd.UseVisualStyleBackColor = false;
             btnAdd.Click += btnAdd_Click;
             // 
-            // dataGridRentedCars
-            // 
-            dataGridRentedCars.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridRentedCars.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridRentedCars.Location = new Point(17, 216);
-            dataGridRentedCars.Name = "dataGridRentedCars";
-            dataGridRentedCars.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridRentedCars.Size = new Size(848, 132);
-            dataGridRentedCars.TabIndex = 4;
-            dataGridRentedCars.CellContentClick += dataGridRentedCars_CellContentClick;
-            // 
-            // dataGridAvailableCars
-            // 
-            dataGridAvailableCars.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridAvailableCars.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridAvailableCars.Location = new Point(16, 37);
-            dataGridAvailableCars.Name = "dataGridAvailableCars";
-            dataGridAvailableCars.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridAvailableCars.Size = new Size(848, 141);
-            dataGridAvailableCars.TabIndex = 6;
-            dataGridAvailableCars.CellContentClick += dataGridView2_CellContentClick;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Poppins Medium", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(383, 187);
-            label7.Name = "label7";
-            label7.Size = new Size(115, 26);
-            label7.TabIndex = 11;
-            label7.Text = "Rented Cars";
-            // 
             // label8
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Poppins Medium", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(363, 8);
+            label8.Location = new Point(373, 16);
             label8.Name = "label8";
-            label8.Size = new Size(135, 26);
-            label8.TabIndex = 12;
-            label8.Text = "Available Cars";
+            label8.Size = new Size(105, 26);
+            label8.TabIndex = 13;
+            label8.Text = "Customers";
             // 
-            // IssueCar
+            // Customers
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ControlLight;
             Controls.Add(label8);
-            Controls.Add(label7);
-            Controls.Add(dataGridAvailableCars);
             Controls.Add(panel1);
-            Controls.Add(dataGridRentedCars);
-            Name = "IssueCar";
+            Controls.Add(dataGridView1);
+            Name = "Customers";
             Size = new Size(880, 575);
-            Load += IssueCar_Load;
+            Load += Customers_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridRentedCars).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridAvailableCars).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
+        private DataGridView dataGridView1;
         private Panel panel1;
-        private Button btnClear;
-        private TextBox txtRentalPrice;
-        private Label label4;
-        private Label label5;
-        private Label label6;
-        private TextBox txtRentalID;
-        private Label label3;
-        private Label label2;
-        private Label label1;
         private Button btnDel;
         private Button btnEdit;
         private Button btnAdd;
-        private DataGridView dataGridRentedCars;
-        private DateTimePicker dtReturnDate;
-        private DateTimePicker dtRentalDate;
-        private ComboBox cmbRegNo;
-        private ComboBox cmbCustomerID;
-        private DataGridView dataGridAvailableCars;
-        private Label label7;
+        private TextBox txtFirstName;
+        private TextBox txtCustomerId;
+        private Label label3;
+        private Label label2;
+        private Label label1;
+        private TextBox txtPhone;
+        private TextBox txtEmail;
+        private Label label4;
+        private Label label5;
+        private Label label6;
+        private TextBox txtLastName;
+        private TextBox txtAddress;
+        private Button btnClear;
         private Label label8;
     }
 }

@@ -15,7 +15,7 @@ namespace CarRentalSystem_RideXpress
 {
     public partial class RegisterForm : Form
     {
-        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\gamik\OneDrive\Documents\RideXpress.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=false");
+        SqlConnection connect = new SqlConnection(DBConnection.ConnectionString);
 
         public RegisterForm()
         {

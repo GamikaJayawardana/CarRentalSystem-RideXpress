@@ -15,14 +15,24 @@ namespace CarRentalSystem_RideXpress
         public MainForm()
         {
             InitializeComponent();
+
+            cars1.Visible = false;
+            issueCar1.Visible = false;
+            carReturn1.Visible = false;
+            customers1.Visible = true;
+            dashboard1.Visible = true;
+
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            //dashboard1.Visible = true;
-            //issueCar1.Visible = false;
-            //addCars1.Visible = false;
-            //returnCar1.Visible = false;
+            cars1.Visible = false;
+            issueCar1.Visible = false;
+            carReturn1.Visible = false;
+            customers1.Visible = true;
+            dashboard1.Visible = true;
+
+            dashboard1.LoadDashboardStats();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -55,26 +65,54 @@ namespace CarRentalSystem_RideXpress
 
         private void btnAddCars_Click(object sender, EventArgs e)
         {
-            //dashboard1.Visible = false;
-            //issueCar1.Visible = false;
-            //addCars1.Visible = true;
-            //returnCar1.Visible = false;
+            dashboard1.Visible = false;
+            cars1.Visible = true;
+            issueCar1.Visible = false;
+            carReturn1.Visible = false;
+            customers1.Visible = false;
+
         }
 
         private void btnIssueCar_Click(object sender, EventArgs e)
         {
-            //dashboard1.Visible = false;
-            //issueCar1.Visible = true;
-            //addCars1.Visible = false;
-            //returnCar1.Visible = false;
+            cars1.Visible = false;
+            issueCar1.Visible = true;
+            carReturn1.Visible = false;
+            customers1.Visible = false;
+            dashboard1.Visible = false;
         }
 
         private void btnReturnCar_Click(object sender, EventArgs e)
         {
-            //dashboard1.Visible = false;
-            //issueCar1.Visible = false;
-            //addCars1.Visible = false;
-            //returnCar1.Visible = true;
+            cars1.Visible = false;
+            issueCar1.Visible = false;
+            carReturn1.Visible = true;
+            customers1.Visible = false;
+            dashboard1.Visible = false;
+        }
+
+        private void customers1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            cars1.Visible = false;
+            issueCar1.Visible = false;
+            carReturn1.Visible = false;
+            customers1.Visible = true;
+            dashboard1.Visible = false;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dashboard1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

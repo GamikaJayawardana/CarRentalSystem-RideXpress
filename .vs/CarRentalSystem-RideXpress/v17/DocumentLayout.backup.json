@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\carrentalsystem-ridexpress\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|d:\\(d) documents\\lessons\\year 03 sem 01\\becs 31242 - visual programming\\project\\carrentalsystem-ridexpress\\carrentalsystem-ridexpress\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|d:\\(d) documents\\lessons\\year 03 sem 01\\becs 31242 - visual programming\\project\\carrentalsystem-ridexpress\\carrentalsystem-ridexpress\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\carrentalsystem-ridexpress\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|d:\\(d) documents\\lessons\\year 03 sem 01\\becs 31242 - visual programming\\project\\carrentalsystem-ridexpress\\carrentalsystem-ridexpress\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|d:\\(d) documents\\lessons\\year 03 sem 01\\becs 31242 - visual programming\\project\\carrentalsystem-ridexpress\\carrentalsystem-ridexpress\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\carrentalsystem-ridexpress\\addcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\addcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|d:\\(d) documents\\lessons\\year 03 sem 01\\becs 31242 - visual programming\\project\\carrentalsystem-ridexpress\\carrentalsystem-ridexpress\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\carrentalsystem-ridexpress\\issuecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\issuecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|d:\\(d) documents\\lessons\\year 03 sem 01\\becs 31242 - visual programming\\project\\carrentalsystem-ridexpress\\carrentalsystem-ridexpress\\carreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\carreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|d:\\(d) documents\\lessons\\year 03 sem 01\\becs 31242 - visual programming\\project\\carrentalsystem-ridexpress\\carrentalsystem-ridexpress\\returncar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\returncar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|d:\\(d) documents\\lessons\\year 03 sem 01\\becs 31242 - visual programming\\project\\carrentalsystem-ridexpress\\carrentalsystem-ridexpress\\issuecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\issuecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|d:\\(d) documents\\lessons\\year 03 sem 01\\becs 31242 - visual programming\\project\\carrentalsystem-ridexpress\\carrentalsystem-ridexpress\\cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD0E724E-D840-48A6-AC2C-02BC23770C41}|CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress.csproj|solutionrelative:carrentalsystem-ridexpress\\cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,55 +42,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReturnCar.cs [Design]",
-              "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\ReturnCar.cs",
-              "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\ReturnCar.cs",
-              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\ReturnCar.cs [Design]",
-              "RelativeToolTip": "CarRentalSystem-RideXpress\\ReturnCar.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\Dashboard.cs",
+              "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\Dashboard.cs",
+              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\Dashboard.cs",
+              "RelativeToolTip": "CarRentalSystem-RideXpress\\Dashboard.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T11:03:44.5Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-02T15:34:36.145Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IssueCar.cs [Design]",
-              "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\IssueCar.cs",
-              "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\IssueCar.cs",
-              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\IssueCar.cs [Design]",
-              "RelativeToolTip": "CarRentalSystem-RideXpress\\IssueCar.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\MainForm.cs",
+              "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\MainForm.cs",
+              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\MainForm.cs [Design]*",
+              "RelativeToolTip": "CarRentalSystem-RideXpress\\MainForm.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T11:03:09.789Z",
+              "WhenOpened": "2025-07-02T15:18:39.096Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AddCars.cs [Design]",
-              "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\AddCars.cs",
-              "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\AddCars.cs",
-              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\AddCars.cs [Design]",
-              "RelativeToolTip": "CarRentalSystem-RideXpress\\AddCars.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T11:02:25.976Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Dashboard.cs [Design]",
               "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\Dashboard.cs",
               "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\Dashboard.cs",
               "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\Dashboard.cs [Design]",
               "RelativeToolTip": "CarRentalSystem-RideXpress\\Dashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T11:01:16.342Z",
+              "WhenOpened": "2025-07-02T15:14:49.054Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CarReturn.cs",
+              "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\CarReturn.cs",
+              "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\CarReturn.cs",
+              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\CarReturn.cs",
+              "RelativeToolTip": "CarRentalSystem-RideXpress\\CarReturn.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAgwLIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:05:13.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IssueCar.cs",
+              "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\IssueCar.cs",
+              "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\IssueCar.cs",
+              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\IssueCar.cs",
+              "RelativeToolTip": "CarRentalSystem-RideXpress\\IssueCar.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAUwMUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:05:08.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Customers.cs",
+              "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\Customers.cs",
+              "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\Customers.cs",
+              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\Customers.cs",
+              "RelativeToolTip": "CarRentalSystem-RideXpress\\Customers.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAgwKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:04:49.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cars.cs",
+              "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\Cars.cs",
+              "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\Cars.cs",
+              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\Cars.cs",
+              "RelativeToolTip": "CarRentalSystem-RideXpress\\Cars.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAQwKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:04:42.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -90,24 +139,12 @@
               "Title": "MainForm.cs",
               "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\MainForm.cs",
               "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\MainForm.cs",
-              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\MainForm.cs",
-              "RelativeToolTip": "CarRentalSystem-RideXpress\\MainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
+              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\MainForm.cs*",
+              "RelativeToolTip": "CarRentalSystem-RideXpress\\MainForm.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T09:45:29.189Z",
+              "WhenOpened": "2025-07-02T14:57:18.228Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\MainForm.cs",
-              "RelativeDocumentMoniker": "CarRentalSystem-RideXpress\\MainForm.cs",
-              "ToolTip": "D:\\(D) Documents\\Lessons\\Year 03 Sem 01\\BECS 31242 - Visual Programming\\Project\\CarRentalSystem-RideXpress\\CarRentalSystem-RideXpress\\MainForm.cs [Design]",
-              "RelativeToolTip": "CarRentalSystem-RideXpress\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T09:14:04.007Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -31,6 +31,7 @@
             label1 = new Label();
             panel1 = new Panel();
             panel2 = new Panel();
+            button1 = new Button();
             btnLogout = new Button();
             btnReturnCar = new Button();
             btnIssueCar = new Button();
@@ -38,10 +39,19 @@
             btnDashboard = new Button();
             pictureBox1 = new PictureBox();
             panel3 = new Panel();
-            button1 = new Button();
+            panel4 = new Panel();
+            dashboard1 = new Dashboard();
+            customers1 = new Customers();
+            cars1 = new Cars();
+            issueCar1 = new IssueCar();
+            carReturn1 = new CarReturn();
+            pictureBox2 = new PictureBox();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel3.SuspendLayout();
+            panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -64,6 +74,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1208, 25);
             panel1.TabIndex = 1;
+            panel1.Paint += panel1_Paint;
             // 
             // panel2
             // 
@@ -79,6 +90,28 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(220, 600);
             panel2.TabIndex = 2;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.FromArgb(5, 15, 60);
+            button1.Cursor = Cursors.Hand;
+            button1.FlatAppearance.BorderColor = Color.White;
+            button1.FlatAppearance.BorderSize = 2;
+            button1.FlatAppearance.CheckedBackColor = Color.FromArgb(182, 24, 23);
+            button1.FlatAppearance.MouseDownBackColor = Color.FromArgb(182, 24, 23);
+            button1.FlatAppearance.MouseOverBackColor = Color.FromArgb(182, 24, 23);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Poppins SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.White;
+            button1.Image = Properties.Resources.icons8_customers_32;
+            button1.ImageAlign = ContentAlignment.MiddleLeft;
+            button1.Location = new Point(12, 219);
+            button1.Name = "button1";
+            button1.Size = new Size(193, 43);
+            button1.TabIndex = 12;
+            button1.Text = "Customers";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // btnLogout
             // 
@@ -202,6 +235,7 @@
             // 
             // panel3
             // 
+            panel3.Controls.Add(panel4);
             panel3.Dock = DockStyle.Bottom;
             panel3.Location = new Point(220, 25);
             panel3.Name = "panel3";
@@ -209,26 +243,68 @@
             panel3.TabIndex = 3;
             panel3.Paint += panel3_Paint;
             // 
-            // button1
+            // panel4
             // 
-            button1.BackColor = Color.FromArgb(5, 15, 60);
-            button1.Cursor = Cursors.Hand;
-            button1.FlatAppearance.BorderColor = Color.White;
-            button1.FlatAppearance.BorderSize = 2;
-            button1.FlatAppearance.CheckedBackColor = Color.FromArgb(182, 24, 23);
-            button1.FlatAppearance.MouseDownBackColor = Color.FromArgb(182, 24, 23);
-            button1.FlatAppearance.MouseOverBackColor = Color.FromArgb(182, 24, 23);
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Poppins SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.White;
-            button1.Image = Properties.Resources.icons8_customers_32;
-            button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(12, 219);
-            button1.Name = "button1";
-            button1.Size = new Size(193, 43);
-            button1.TabIndex = 12;
-            button1.Text = "Customers";
-            button1.UseVisualStyleBackColor = false;
+            panel4.BackColor = Color.FromArgb(224, 224, 224);
+            panel4.Controls.Add(pictureBox2);
+            panel4.Controls.Add(dashboard1);
+            panel4.Controls.Add(customers1);
+            panel4.Controls.Add(cars1);
+            panel4.Controls.Add(issueCar1);
+            panel4.Controls.Add(carReturn1);
+            panel4.Location = new Point(0, 0);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(880, 575);
+            panel4.TabIndex = 0;
+            // 
+            // dashboard1
+            // 
+            dashboard1.BackColor = SystemColors.ControlLight;
+            dashboard1.Location = new Point(0, 0);
+            dashboard1.Name = "dashboard1";
+            dashboard1.Size = new Size(880, 575);
+            dashboard1.TabIndex = 4;
+            dashboard1.Load += dashboard1_Load;
+            // 
+            // customers1
+            // 
+            customers1.Location = new Point(-3, 0);
+            customers1.Name = "customers1";
+            customers1.Size = new Size(880, 575);
+            customers1.TabIndex = 3;
+            // 
+            // cars1
+            // 
+            cars1.Location = new Point(0, 0);
+            cars1.Name = "cars1";
+            cars1.Size = new Size(880, 575);
+            cars1.TabIndex = 2;
+            // 
+            // issueCar1
+            // 
+            issueCar1.BackColor = SystemColors.ControlLight;
+            issueCar1.Location = new Point(0, 0);
+            issueCar1.Name = "issueCar1";
+            issueCar1.Size = new Size(880, 575);
+            issueCar1.TabIndex = 1;
+            // 
+            // carReturn1
+            // 
+            carReturn1.Location = new Point(0, 0);
+            carReturn1.Name = "carReturn1";
+            carReturn1.Size = new Size(880, 575);
+            carReturn1.TabIndex = 0;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox2.Image = Properties.Resources._78485_all_new_2017_civic_hatchback;
+            pictureBox2.Location = new Point(22, 133);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(837, 419);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 5;
+            pictureBox2.TabStop = false;
             // 
             // MainForm
             // 
@@ -247,6 +323,9 @@
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel3.ResumeLayout(false);
+            panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -263,5 +342,12 @@
         private Button btnLogout;
         private Panel panel3;
         private Button button1;
+        private Panel panel4;
+        private Cars cars1;
+        private IssueCar issueCar1;
+        private CarReturn carReturn1;
+        private Customers customers1;
+        private Dashboard dashboard1;
+        private PictureBox pictureBox2;
     }
 }
