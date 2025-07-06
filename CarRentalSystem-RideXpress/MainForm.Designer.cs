@@ -45,13 +45,11 @@
             cars1 = new Cars();
             issueCar1 = new IssueCar();
             carReturn1 = new CarReturn();
-            pictureBox2 = new PictureBox();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel3.SuspendLayout();
             panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -246,7 +244,6 @@
             // panel4
             // 
             panel4.BackColor = Color.FromArgb(224, 224, 224);
-            panel4.Controls.Add(pictureBox2);
             panel4.Controls.Add(dashboard1);
             panel4.Controls.Add(customers1);
             panel4.Controls.Add(cars1);
@@ -260,7 +257,7 @@
             // dashboard1
             // 
             dashboard1.BackColor = SystemColors.ControlLight;
-            dashboard1.Location = new Point(0, 0);
+            dashboard1.Location = new Point(2, 0);
             dashboard1.Name = "dashboard1";
             dashboard1.Size = new Size(880, 575);
             dashboard1.TabIndex = 4;
@@ -295,17 +292,6 @@
             carReturn1.Size = new Size(880, 575);
             carReturn1.TabIndex = 0;
             // 
-            // pictureBox2
-            // 
-            pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox2.Image = Properties.Resources._78485_all_new_2017_civic_hatchback;
-            pictureBox2.Location = new Point(22, 133);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(837, 419);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 5;
-            pictureBox2.TabStop = false;
-            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -325,7 +311,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel3.ResumeLayout(false);
             panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -348,6 +333,5 @@
         private CarReturn carReturn1;
         private Customers customers1;
         private Dashboard dashboard1;
-        private PictureBox pictureBox2;
     }
 }

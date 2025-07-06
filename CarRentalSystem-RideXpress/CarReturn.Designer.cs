@@ -260,11 +260,11 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Poppins Medium", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(369, 11);
+            label8.Location = new Point(353, 11);
             label8.Name = "label8";
-            label8.Size = new Size(115, 26);
+            label8.Size = new Size(135, 26);
             label8.TabIndex = 22;
-            label8.Text = "Rented Cars";
+            label8.Text = "Cars to Return";
             // 
             // CarReturn
             // 

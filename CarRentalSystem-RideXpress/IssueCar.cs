@@ -54,9 +54,8 @@ namespace CarRentalSystem_RideXpress
 
             // Load Rented Cars Grid (fixed query to include today's rentals)
             SqlDataAdapter rentedAdapter = new SqlDataAdapter(
-    "SELECT r.rental_id, r.customer_id, r.regNo, r.rental_date, r.return_date, r.rental_price FROM rentals r " +
-    "WHERE r.rental_id NOT IN (SELECT rental_id FROM returns)",
-    connect);
+                "SELECT * FROM rentals",
+            connect);
 
             DataTable dtRented = new DataTable();
             rentedAdapter.Fill(dtRented);
@@ -104,6 +103,9 @@ namespace CarRentalSystem_RideXpress
 
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Rental added successfully.");
+                AppEvents.RaiseCarListUpdated();
+
+                
             }
             catch (Exception ex)
             {
@@ -132,6 +134,7 @@ namespace CarRentalSystem_RideXpress
 
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Rental updated successfully.");
+                AppEvents.RaiseCarListUpdated();
             }
             catch (Exception ex)
             {
@@ -156,6 +159,7 @@ namespace CarRentalSystem_RideXpress
                     cmd.Parameters.AddWithValue("@id", Convert.ToInt32(txtRentalID.Text));
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Rental deleted successfully.");
+                    AppEvents.RaiseCarListUpdated();
                 }
                 catch (Exception ex)
                 {

@@ -29,17 +29,19 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            label1 = new Label();
             lblTotalCars = new Label();
+            label1 = new Label();
             panel5 = new Panel();
+            lblTotalCustomers = new Label();
             label4 = new Label();
             panel2 = new Panel();
+            lblAvailableCars = new Label();
             label6 = new Label();
             panel3 = new Panel();
-            Re = new Label();
-            lblTotalCustomers = new Label();
-            lblAvailableCars = new Label();
             lblRentedCars = new Label();
+            Re = new Label();
+            sqlCommand1 = new Microsoft.Data.SqlClient.SqlCommand();
+            rentalReportForm1 = new RentalReportForm();
             panel1.SuspendLayout();
             panel5.SuspendLayout();
             panel2.SuspendLayout();
@@ -56,17 +58,6 @@
             panel1.Size = new Size(200, 100);
             panel1.TabIndex = 0;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Poppins SemiBold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(72, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(125, 37);
-            label1.TabIndex = 3;
-            label1.Text = "Total Cars";
-            // 
             // lblTotalCars
             // 
             lblTotalCars.AutoSize = true;
@@ -79,6 +70,17 @@
             lblTotalCars.TabIndex = 4;
             lblTotalCars.Text = "00";
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Poppins SemiBold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(72, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(125, 37);
+            label1.TabIndex = 3;
+            label1.Text = "Total Cars";
+            // 
             // panel5
             // 
             panel5.BackColor = Color.FromArgb(182, 24, 23);
@@ -88,6 +90,18 @@
             panel5.Name = "panel5";
             panel5.Size = new Size(200, 100);
             panel5.TabIndex = 3;
+            // 
+            // lblTotalCustomers
+            // 
+            lblTotalCustomers.AutoSize = true;
+            lblTotalCustomers.BackColor = Color.Transparent;
+            lblTotalCustomers.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTotalCustomers.ForeColor = Color.White;
+            lblTotalCustomers.Location = new Point(122, 35);
+            lblTotalCustomers.Name = "lblTotalCustomers";
+            lblTotalCustomers.Size = new Size(84, 65);
+            lblTotalCustomers.TabIndex = 5;
+            lblTotalCustomers.Text = "00";
             // 
             // label4
             // 
@@ -110,6 +124,18 @@
             panel2.Size = new Size(200, 100);
             panel2.TabIndex = 5;
             // 
+            // lblAvailableCars
+            // 
+            lblAvailableCars.AutoSize = true;
+            lblAvailableCars.BackColor = Color.Transparent;
+            lblAvailableCars.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblAvailableCars.ForeColor = Color.White;
+            lblAvailableCars.Location = new Point(120, 35);
+            lblAvailableCars.Name = "lblAvailableCars";
+            lblAvailableCars.Size = new Size(84, 65);
+            lblAvailableCars.TabIndex = 6;
+            lblAvailableCars.Text = "00";
+            // 
             // label6
             // 
             label6.AutoSize = true;
@@ -131,41 +157,6 @@
             panel3.Size = new Size(200, 100);
             panel3.TabIndex = 6;
             // 
-            // Re
-            // 
-            Re.AutoSize = true;
-            Re.Font = new Font("Poppins SemiBold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Re.ForeColor = Color.White;
-            Re.Location = new Point(50, 0);
-            Re.Name = "Re";
-            Re.Size = new Size(147, 37);
-            Re.TabIndex = 3;
-            Re.Text = "Rented Cars";
-            // 
-            // lblTotalCustomers
-            // 
-            lblTotalCustomers.AutoSize = true;
-            lblTotalCustomers.BackColor = Color.Transparent;
-            lblTotalCustomers.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTotalCustomers.ForeColor = Color.White;
-            lblTotalCustomers.Location = new Point(122, 35);
-            lblTotalCustomers.Name = "lblTotalCustomers";
-            lblTotalCustomers.Size = new Size(84, 65);
-            lblTotalCustomers.TabIndex = 5;
-            lblTotalCustomers.Text = "00";
-            // 
-            // lblAvailableCars
-            // 
-            lblAvailableCars.AutoSize = true;
-            lblAvailableCars.BackColor = Color.Transparent;
-            lblAvailableCars.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblAvailableCars.ForeColor = Color.White;
-            lblAvailableCars.Location = new Point(120, 35);
-            lblAvailableCars.Name = "lblAvailableCars";
-            lblAvailableCars.Size = new Size(84, 65);
-            lblAvailableCars.TabIndex = 6;
-            lblAvailableCars.Text = "00";
-            // 
             // lblRentedCars
             // 
             lblRentedCars.AutoSize = true;
@@ -178,11 +169,37 @@
             lblRentedCars.TabIndex = 7;
             lblRentedCars.Text = "00";
             // 
+            // Re
+            // 
+            Re.AutoSize = true;
+            Re.Font = new Font("Poppins SemiBold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Re.ForeColor = Color.White;
+            Re.Location = new Point(50, 0);
+            Re.Name = "Re";
+            Re.Size = new Size(147, 37);
+            Re.TabIndex = 3;
+            Re.Text = "Rented Cars";
+            // 
+            // sqlCommand1
+            // 
+            sqlCommand1.CommandTimeout = 30;
+            sqlCommand1.Connection = null;
+            sqlCommand1.Notification = null;
+            sqlCommand1.Transaction = null;
+            // 
+            // rentalReportForm1
+            // 
+            rentalReportForm1.Location = new Point(20, 135);
+            rentalReportForm1.Name = "rentalReportForm1";
+            rentalReportForm1.Size = new Size(839, 409);
+            rentalReportForm1.TabIndex = 8;
+            // 
             // Dashboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLight;
+            Controls.Add(rentalReportForm1);
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel5);
@@ -217,5 +234,7 @@
         private Panel panel3;
         private Label lblRentedCars;
         private Label Re;
+        private Microsoft.Data.SqlClient.SqlCommand sqlCommand1;
+        private RentalReportForm rentalReportForm1;
     }
 }

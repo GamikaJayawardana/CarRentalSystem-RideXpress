@@ -272,11 +272,11 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Poppins Medium", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(383, 187);
+            label7.Location = new Point(357, 187);
             label7.Name = "label7";
-            label7.Size = new Size(115, 26);
+            label7.Size = new Size(141, 26);
             label7.TabIndex = 11;
-            label7.Text = "Rented Cars";
+            label7.Text = "All Rented Cars";
             // 
             // label8
             // 

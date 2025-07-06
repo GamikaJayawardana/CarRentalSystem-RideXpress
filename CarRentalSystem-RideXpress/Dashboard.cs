@@ -8,11 +8,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
+
 
 namespace CarRentalSystem_RideXpress
 {
     public partial class Dashboard : UserControl
     {
+
+       
+
         SqlConnection connect = new SqlConnection(DBConnection.ConnectionString);
 
         public Dashboard()
@@ -23,6 +28,7 @@ namespace CarRentalSystem_RideXpress
         private void Dashboard_Load(object sender, EventArgs e)
         {
             LoadDashboardStats();
+            
         }
 
         public void LoadDashboardStats()
